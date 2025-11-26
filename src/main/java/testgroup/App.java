@@ -128,9 +128,9 @@ public class App {
         }
 
         //Сканер
-        Scanner scaner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");
-        int aa = scaner.nextInt();
+        int aa = scanner.nextInt();
         if (aa > 0) {
             System.out.println("Число больше 0");
         } else if (aa < 0) {
@@ -138,7 +138,7 @@ public class App {
         } else if (aa == 0) {
             System.out.println("Это число 0");
         }
-        scaner.close();
+        scanner.close();
     }
 
     public static void printMessage(String message) {
